@@ -17,23 +17,23 @@ cars_𝑑𝑓 = 𝑝d.𝑟𝑒𝑎𝑑_𝑐𝑠𝑣("cars.csv")
 
 # Creamos la variable "conditions" con las diferentes marcas de autos contenidas en el dataframe  
 conditions = [
-    (cars_df["Car"] == "Audi"),
-    (cars_df["Car"] == "BMW"),
-    (cars_df["Car"] == "Fiat"),
-    (cars_df["Car"] == "Ford"),
-    (cars_df["Car"] == "Honda"),
-    (cars_df["Car"] == "Hundai"),
-    (cars_df["Car"] == "Mazda"),
-    (cars_df["Car"] == "Mercedes"),
+    (cars_df["Car"] == "Skoda"),
     (cars_df["Car"] == "Mini"),
+    (cars_df["Car"] == "Hyundai"),
+    (cars_df["Car"] == "Ford"),
+    (cars_df["Car"] == "Suzuki"),
+    (cars_df["Car"] == "Hundai"),
+    (cars_df["Car"] == "Volvo"),
+    (cars_df["Car"] == "Mercedes"),
+    (cars_df["Car"] == "BMW"),
     (cars_df["Car"] == "Mitsubishi"),
     (cars_df["Car"] == "Opel"),
-    (cars_df["Car"] == "Skoda"),
-    (cars_df["Car"] == "Suzuki"),
+    (cars_df["Car"] == "Audi"),
+    (cars_df["Car"] == "Honda"),
     (cars_df["Car"] == "Toyoty"),
     (cars_df["Car"] == "VW"),
-    (cars_df["Car"] == "Volvo"),
-    (cars_df["Car"] == "Hyundai")]
+    (cars_df["Car"] == "Mazda"),
+    (cars_df["Car"] == "Fiat")]
 
 # Creamos una variable denominada "selections" que contendra un array de numeros enteros desde el 1 hasta el 17
 selections = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
